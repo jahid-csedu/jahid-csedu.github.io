@@ -154,21 +154,25 @@ Throughout my tenure, I consistently demonstrated a proactive and results-driven
 ### Rakuten Beauty
 **Duration: Jun 2023 - Present**
 In my current role at Rakuten, I serve as a dynamic Backend API Developer for the Rakuten Beauty project. This initiative focuses on enhancing user experience by allowing users to search for and book appointments at beauty salons throughout Japan. I actively contribute to the project's microservices architecture using the Spring ecosystem, ensuring high availability and scalability.
-**Technologies used** *Java, Spring Boot, Microservices, Gradle, PostgreSQL, Elasticsearch, Docker, Apache Kafka, Spring Batch, Redis, Jenkins, Git, Jira, Confluence*
+
+**Technologies used:** *Java, Spring Boot, Microservices, Gradle, PostgreSQL, Elasticsearch, Docker, Apache Kafka, Spring Batch, Redis, Jenkins, Git, Jira, Confluence*
 ### Electronic Voting System
 **Duration: Jun 2022 - May 2023**
 As part of the Blockchain-based Electronic Voting System project, I played a crucial role in refactoring legacy codes, reducing code size, and improving maintainability. I also contributed to the improvement of the vote result calculation sheet, providing a better user experience. 
-**Technologies used** *Java, Spring Boot, JPA, Microservices, JWT, PostgreSQL, Redis, AWS, Junit, Mockito, Git, Jenkins, Jira, and Confluence*
+
+**Technologies used:** *Java, Spring Boot, JPA, Microservices, JWT, PostgreSQL, Redis, AWS, Junit, Mockito, Git, Jenkins, Jira, and Confluence*
 
 ### Kona Time To Throw Away
 **Duration: Aug 2022 - Feb 2023**
 For the Kona Time To Throw Away project, a recycling management system in Cheongju City, South Korea, I developed the recycle collection scheduling API. This API reduced waste collection and car scheduling time by 30%. Additionally, I implemented a Reward Management System that increased user engagement by 30%, contributing to higher revenues. 
-**Technologies used** *Java, Spring Boot, JPA, Microservices, JWT, PostgreSQL, Elasticsearch, Redis, AWS, Git, Jenkins, Jira, and Confluence*
+
+**Technologies used:** *Java, Spring Boot, JPA, Microservices, JWT, PostgreSQL, Elasticsearch, Redis, AWS, Git, Jenkins, Jira, and Confluence*
 
 ### Airlines Reservation System
 **Duration: Feb 2022 - May 2022**
 At TechnoNext, formerly Digigate360 Limited, I played a key role in crafting backend solutions for an advanced Airlines Reservation System. I led a team of developers, spearheading the development of a sophisticated flight search mechanism. This feature seamlessly responded to diverse search criteria, tailoring results based on user types. 
-**Technologies used** *Java, Spring Boot, Maven, JPA, Hibernate, JUnit, SQL, Microsoft SQL Server, Git, GitHub, and Redmine*
+
+**Technologies used:** *Java, Spring Boot, Maven, JPA, Hibernate, JUnit, SQL, Microsoft SQL Server, Git, GitHub, and Redmine*
 
 ---
 
