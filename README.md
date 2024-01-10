@@ -20,7 +20,7 @@ My journey also led me to Kona Software Lab and TechnoNext, where I played pivot
 
 I'm always on the lookout for the next exciting challenge – whether it's crafting efficient algorithms, contributing to open-source projects, or exploring emerging technologies. If you're passionate about tech and innovation, let's connect and create something extraordinary!
 
-Feel free to explore my GitHub contributions and connect with me on [LinkedIn](https://www.linkedin.com/in/md-jahid-hasan/). Let's embark on this coding adventure together!
+Feel free to explore my GitHub contributions and connect with me on [LinkedIn](https://www.linkedin.com/in/jahid-csedu/). Let's embark on this coding adventure together!
 
 ---
 
