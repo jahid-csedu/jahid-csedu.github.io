@@ -59,10 +59,10 @@
                 <h2>NewzGator</h2>
                 <p><strong>Duration: Jul 2025 – Present</strong></p>
                 <p>
-                    <a href="https://www.newzgator.com" target="_blank">NewzGator</a> is my personal project, designed and developed 
-                    from scratch to serve as a modern news aggregation platform focusing exclusively on Bangladeshi newspapers. 
-                    The platform collects, processes, and publishes the latest news articles across multiple categories including 
-                    politics, business, sports, education, entertainment, technology, and lifestyle. 
+                    <a href="https://www.newzgator.com" target="_blank">NewzGator</a> is a personal project where I designed 
+                    and implemented the entire <strong>backend system</strong> for a news aggregation platform 
+                    focusing on Bangladeshi newspapers. The system ingests, cleans, classifies, and clusters thousands of 
+                    articles daily, delivering structured news data for further use by the frontend and other services.
                 </p>
 
                 <p>
@@ -72,32 +72,34 @@
                     and ensuring compliance with Google News indexing standards.
                 </p>
 
-                <p>
-                    Some of the major highlights of NewzGator include:
-                </p>
+                <p>Key backend contributions include:</p>
                 <ul>
-                    <li><strong>Automated Content Aggregation</strong>: Developed custom crawlers and ingestion pipelines to 
-                        fetch articles from multiple Bangladeshi newspapers in near real-time.</li>
-                    <li><strong>Google News Integration</strong>: Implemented specialized <code>news-sitemap.xml</code> 
-                        feeds with proper schema to enhance visibility on Google News and Top Stories.</li>
-                    <li><strong>Smart Categorization</strong>: Articles are dynamically categorized into 15+ segments 
-                        (Politics, Sports, Education, Technology & Science, Business & Economy, etc.), improving navigation and discovery.</li>
-                    <li><strong>Performance & Scalability</strong>: Designed backend services with caching (Redis), 
-                        asynchronous message queues (Kafka), and optimized database queries for handling thousands of 
-                        articles efficiently.</li>
-                    <li><strong>SEO & Indexing</strong>: Implemented canonical tags, structured metadata, robots.txt, 
-                        and sitemap index strategy to maximize search engine discoverability.</li>
-                    <li><strong>Responsive Design</strong>: Optimized for both mobile and desktop with a clean, 
-                        user-friendly interface focused on content readability.</li>
+                    <li><strong>Automated Crawling & Scraping</strong>: Built custom crawlers to fetch articles from 
+                        multiple Bangladeshi news sources with fault tolerance and retry mechanisms.</li>
+                    <li><strong>Data Cleaning & Deduplication</strong>: Implemented pipelines to normalize content, 
+                        remove redundant/unused data, and handle duplicate articles efficiently.</li>
+                    <li><strong>News Classification (NLP)</strong>: Integrated a fine-tuned <strong>BERT model</strong> 
+                        to automatically categorize news into 15+ segments such as Politics, Business, Sports, and Technology.</li>
+                    <li><strong>News Clustering</strong>: Developed a <strong>distance matrix–based algorithm</strong> 
+                        to group similar articles across different sources, improving information diversity.</li>
+                    <li><strong>Scalable Serverless Architecture</strong>: Deployed backend workflows using 
+                        <strong>AWS Lambda, S3, SQS, and DynamoDB</strong> to handle ingestion and processing with 
+                        minimal operational overhead.</li>
+                    <li><strong>High Throughput Processing</strong>: Optimized batch jobs and asynchronous pipelines 
+                        (Spring Batch + Kafka) to process thousands of articles daily.</li>
                 </ul>
 
                 <p>
-                    As a member of the development team, I worked on the <strong>backend development</strong> of the project — from system design, 
-                    backend development, database design, and data collection using crawling and scrapping, data cleaning, deployment and monitoring using serverless architecture.
+                    This project demonstrates my ability to design and implement <strong>end-to-end backend pipelines</strong>, 
+                    apply <strong>machine learning for real-world classification tasks</strong>, and leverage 
+                    <strong>cloud-native serverless architectures</strong> for scalability.
+                </p>
+
+                <p>
                     The platform is currently live at <a href="https://www.newzgator.com" target="_blank">https://www.newzgator.com</a>.
                 </p>
 
-                <p><strong>Technologies used:</strong> Python, BERT Classifiers, AWS Lambda, S3, DynamoDB, CloudWatch, AWS API Gateway, Google Search Console</p>
+                <p><strong>Technologies used:</strong> Python, BERT Classifiers and Transformers, AWS Lambda, S3, DynamoDB, CloudWatch, AWS API Gateway, Google Search Console</p>
             </section>
 
 
