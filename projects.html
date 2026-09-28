@@ -1,240 +1,160 @@
-<!DOCTYPE HTML>
-<!--
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html xmlns="http://www.w3.org/1999/html">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Jahid's Website</title>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-    <link rel="stylesheet" href="assets/css/main.css"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects — Md Jahid Hasan</title>
+  <meta name="description" content="Selected systems built by Md Jahid Hasan: payment integrations, UOB digital banking, Rakuten Beauty, NewzGator, voting, waste management, and airline search.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/site.css">
 </head>
-<body class="is-preload">
-
-<!-- Wrapper -->
-<div id="wrapper">
-
-    <!-- Main -->
-    <div id="main">
-        <div class="inner">
-
-            <!-- Header -->
-            <header id="header">
-                <a href="index.html" class="logo"><strong>Md Jahid Hasan</strong> Backend Software Engineer</a>
-                <ul class="icons">
-                    <li><a href="https://www.linkedin.com/in/jahid-csedu/" class="icon brands fa-linkedin"><span
-                            class="label">Linkedin</span></a></li>
-                    <li><a href="https://github.com/jahid-csedu" class="icon brands fa-github"><span class="label">Github</span></a>
-                    </li>
-                    <li><a href="mailto:jahid.csedu@gmail.com" class="icon brands fa-google"><span
-                            class="label">Email</span></a></li>
-                    <li><a href="http://wa.me/+8107085489792" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a>
-                    </li>
-                </ul>
-            </header>
-
-            <!-- Content -->
-            <section>
-                <header class="main">
-                    <h1>Projects I worked on</h1>
-                </header>
-
-                <p class="para">Embark on a journey through my key projects, where I've harnessed technology to create
-                    impactful
-                    solutions. In the Rakuten Beauty project, I contribute as a dynamic Backend API Developer, enhancing
-                    user experiences in the realm of beauty salons across Japan. The Electronic Voting System, a
-                    blockchain-based initiative, showcases my prowess in refactoring legacy codes and improving user
-                    experiences. Kona Time To Throw Away, a waste management system in South Korea, witnessed the
-                    development of a recycling collection scheduling API. Lastly, at TechnoNext, I led a team in
-                    crafting a sophisticated flight search mechanism as part of an advanced Airlines Reservation System.
-                    These projects reflect not just my technical skills but a commitment to innovation that leaves a
-                    lasting impact.
-                </p>
-
-            </section>
-
-            <section class="container">
-                <h2>NewzGator</h2>
-                <p><strong>Duration: Jul 2025 – Present</strong></p>
-                <p>
-                    <a href="https://www.newzgator.com" target="_blank">NewzGator</a> is a personal project where I designed 
-                    and implemented the entire <strong>backend system</strong> for a news aggregation platform 
-                    focusing on Bangladeshi newspapers. The system ingests, cleans, classifies, and clusters thousands of 
-                    articles daily, delivering structured news data for further use by the frontend and other services.
-                </p>
-
-                <p>
-                    The project emphasizes <strong>real-time content updates</strong>, ensuring readers receive fresh news 
-                    directly from verified Bangladeshi news sources. A key technical challenge was designing the system to 
-                    efficiently crawl, process, and redirect news content while maintaining <strong>SEO-friendly URLs</strong> 
-                    and ensuring compliance with Google News indexing standards.
-                </p>
-
-                <p>Key backend contributions include:</p>
-                <ul>
-                    <li><strong>Automated Crawling & Scraping</strong>: Built custom crawlers to fetch articles from 
-                        multiple Bangladeshi news sources with fault tolerance and retry mechanisms.</li>
-                    <li><strong>Data Cleaning & Deduplication</strong>: Implemented pipelines to normalize content, 
-                        remove redundant/unused data, and handle duplicate articles efficiently.</li>
-                    <li><strong>News Classification (NLP)</strong>: Integrated a fine-tuned <strong>BERT model</strong> 
-                        to automatically categorize news into 15+ segments such as Politics, Business, Sports, and Technology.</li>
-                    <li><strong>News Clustering</strong>: Developed a <strong>Sentence Transformer and DBSCAN</strong> 
-                        to group similar articles across different sources, improving information diversity.</li>
-                    <li><strong>Scalable Serverless Architecture</strong>: Deployed backend workflows using 
-                        <strong>AWS Lambda, S3, SQS, and DynamoDB</strong> to handle ingestion and processing with 
-                        minimal operational overhead.</li>
-                </ul>
-
-                <p>
-                    This project demonstrates my ability to design and implement <strong>end-to-end backend pipelines</strong>, 
-                    apply <strong>machine learning for real-world classification tasks</strong>, and leverage 
-                    <strong>cloud-native serverless architectures</strong> for scalability.
-                </p>
-
-                <p>
-                    The platform is currently live at <a href="https://www.newzgator.com" target="_blank">https://www.newzgator.com</a>.
-                </p>
-
-                <p><strong>Technologies used:</strong> Python, BERT Classifiers and Transformers, AWS Lambda, S3, DynamoDB, CloudWatch, AWS API Gateway, Google Search Console</p>
-            </section>
-
-
-            <section class="container">
-                <h2>UOB Personal Internet Banking (PIB)</h2>
-                <p><strong>Duration: Apr 2025 – Present</strong></p>
-                <p>PIB is UOB’s internet banking platform that gives customers full access to banking services via web browser. 
-                    The platform offers a wide range of features including payments, deposits, fund transfers, and secure account 
-                    management. As a backend developer in the BoatSize team, I contributed to delivering change requests, 
-                    defect fixes, and test support to ensure a reliable and smooth online banking experience.</p>
-                <p>Some of my key contributions include the <strong>Monthly Average Balance feature</strong>, which allows 
-                    users to track and calculate interest on their savings, and enhancements to backend services supporting 
-                    seamless and secure mobile banking transactions.</p>
-                <p>I also implemented a <strong>secured contact update feature with two-factor authentication</strong>, 
-                    adding a stronger layer of protection for customers’ sensitive information, and worked on backend improvements 
-                    to enhance system stability.</p>
-                <p><strong>Technologies used:</strong> Java, Spring Boot, JSP, Oracle Database, Microservices, Maven, Git, 
-                    JIRA, Confluence</p>
-            </section>
-
-            <section class="container">
-                <h2>UOB TMRW</h2>
-                <p><strong>Duration: Apr 2025 – Present</strong></p>
-                <p>TMRW is UOB’s flagship digital banking mobile application that enables customers to manage their 
-                    savings, deposits, transfers, investments, and financial planning directly from their smartphones. 
-                    As a backend developer, I worked on implementing change requests and developing new features to 
-                    improve customer experience and strengthen security.</p>
-                
-                <p><strong>Technologies used:</strong> Java, Spring Boot, OCP, Oracle Database, Microservices, Maven, Git, 
-                    JIRA, Confluence</p>
-            </section>
-
-            <section class="container">
-                <h2>Rakuten Beauty</h2>
-                <p><strong>Duration: Jun 2023 - Mar 2025</strong></p>
-                <p>In my current role at Rakuten, I serve as a dynamic Backend API Developer for the Rakuten Beauty
-                    project. This initiative focuses on enhancing user experience by allowing users to search for and
-                    book appointments at beauty salons throughout Japan. I actively contribute to the project's
-                    microservices architecture using the Spring ecosystem, ensuring high availability and
-                    scalability.</p>
-                <p><strong>Technologies used:</strong> Java, Spring Boot, Microservices, Gradle, PostgreSQL,
-                    Elasticsearch, Docker, Apache Kafka, Spring Batch, Redis, Jenkins, Git, Jira, Confluence</p>
-            </section>
-
-            <section class="container">
-                <h2>Electronic Voting System</h2>
-                <p><strong>Duration: Jun 2022 - May 2023</strong></p>
-                <p>As part of the Blockchain-based Electronic Voting System project, I played a crucial role in
-                    refactoring legacy codes, reducing code size, and improving maintainability. I also contributed to
-                    the improvement of the vote result calculation sheet, providing a better user experience.</p>
-                <p><strong>Technologies used:</strong> Java, Spring Boot, JPA, Microservices, JWT, PostgreSQL, Redis,
-                    AWS, Junit, Mockito, Git, Jenkins, Jira, and Confluence</p>
-            </section>
-
-            <section class="container">
-                <h2>Kona Time To Throw Away</h2>
-                <p><strong>Duration: Aug 2022 - Feb 2023</strong></p>
-                <p>For the Kona Time To Throw Away project, a recycling management system in Cheongju City, South Korea,
-                    I developed the recycle collection scheduling API. This API reduced waste collection and car
-                    scheduling time by 30%. Additionally, I implemented a Reward Management System that increased user
-                    engagement by 30%, contributing to higher revenues.</p>
-                <p><strong>Technologies used:</strong> Java, Spring Boot, JPA, Microservices, JWT, PostgreSQL,
-                    Elasticsearch, Redis, AWS, Git, Jenkins, Jira, and Confluence</p>
-            </section>
-
-            <section class="container">
-                <h2>Airlines Reservation System</h2>
-                <p><strong>Duration: Feb 2022 - May 2022</strong></p>
-                <p>At TechnoNext, formerly Digigate360 Limited, I played a key role in crafting backend solutions for an
-                    advanced Airlines Reservation System. I led a team of developers, spearheading the development of a
-                    sophisticated flight search mechanism. This feature seamlessly responded to diverse search criteria,
-                    tailoring results based on user types.</p>
-                <p><strong>Technologies used:</strong> Java, Spring Boot, Maven, JPA, Hibernate, JUnit, SQL, Microsoft
-                    SQL Server, Git, GitHub, and Redmine</p>
-            </section>
-
-        </div>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">Jahid Hasan</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <nav class="nav-links" id="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="experience.html">Experience</a>
+        <a href="projects.html" aria-current="page">Projects</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
     </div>
+  </header>
 
-    <!-- Sidebar -->
-    <div id="sidebar">
-        <div class="inner">
+  <main id="main">
+    <div class="wrap">
+      <header class="page-intro">
+        <p class="eyebrow">Projects</p>
+        <h1>Work a recruiter can verify.</h1>
+        <p>NewzGator is first. I design and run it myself. The cards after it are systems I shipped with a team.</p>
+      </header>
 
-            <!-- Search -->
-            <section id="search" class="alt">
-                <form method="post" action="#">
-                    <input type="text" name="query" id="query" placeholder="Search"/>
-                </form>
-            </section>
+      <section class="section section-follow">
+        <article class="story" id="newzgator">
+          <p class="when">Jul 2025 — Present · Personal product</p>
+          <h2><a href="https://www.newzgator.com" target="_blank" rel="noopener">NewzGator</a></h2>
+          <p>A news product for Bangladeshi publishers. Readers should see one story, in the right section, with a short summary, even when a dozen papers run the same event. I own four services: the ingestion pipeline, the reader API, the operations console, and the load tests. Live at <a href="https://www.newzgator.com" target="_blank" rel="noopener">newzgator.com</a>.</p>
 
-            <!-- Menu -->
-            <nav id="menu">
-                <header class="major">
-                    <h2>Menu</h2>
-                </header>
-                <ul>
-                    <li><a href="index.html">Homepage</a></li>
-                    <li><a href="experience.html">Experiences</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                </ul>
-            </nav>
+          <div class="story-block">
+            <h3>Ingestion pipeline</h3>
+            <p>One Spring Boot process. Work moves on RabbitMQ. Crawl and scrape writes land in outbox tables first, so a broker outage does not drop a link that was already found.</p>
+            <ul>
+              <li>The crawler runs on a schedule, per publisher, and only claims a portal it has reserved.</li>
+              <li>The scraper extracts the article, with up to three attempts. Each publisher has its own CSS selectors and JSON-LD rules, and Groovy scripts clean values such as dates after extraction.</li>
+              <li>A successful extract is fanned out to three consumers: category, summary, and cluster.</li>
+              <li>Category comes from the URL when the section is in the path. Bengali text that does not match falls through to an ONNX model. The sections are technology, Bangladesh, international, sports, entertainment, economy, opinion, lifestyle, and education.</li>
+              <li>Summaries go to Groq, then Gemini if that fails, with a pause between calls so the providers are not flooded.</li>
+              <li>Clustering embeds the headline, with BAAI/bge-m3 in production or a local model on my machine. A story joins a cluster from the last 48 hours when the vectors are close enough. Each cluster has one lead article, which is what the feed shows. If the embedding fails, the message is dead-lettered and the article still gets its own cluster.</li>
+            </ul>
+          </div>
 
-            <!-- Section -->
-            <section>
-                <header class="major">
-                    <h2>Get in touch</h2>
-                </header>
-                <p>I’m always on the lookout for the next exciting challenge – whether it’s crafting efficient
-                    algorithms, contributing to open-source projects, or exploring emerging technologies. If you’re
-                    passionate about tech and innovation, let’s connect and create something extraordinary! </p>
-                <p>Feel free to explore my <a href="https://github.com/jahid-csedu">GitHub</a> contributions and connect
-                    with me on <a href="https://www.linkedin.com/in/jahid-csedu/">LinkedIn</a>. Let’s embark on this
-                    coding adventure together!</p>
-                <ul class="contact">
-                    <li class="icon solid fa-envelope"><a href="mailto:jahid.csedu@gmail.com">jahid.csedu@gmail.com</a>
-                    </li>
-                    <li class="icon solid fa-phone">+65 9131 3945</li>
-                    <li class="icon solid fa-home">Singapore</li>
-                </ul>
-            </section>
+          <div class="story-block">
+            <h3>Reader API</h3>
+            <p>This service does not crawl. It reads what the pipeline has already stored: a cursor feed of lead articles, article detail, related stories, full-text search, trending clusters, categories, and publishers.</p>
+            <ul>
+              <li>Reading is public. Sign-in is Google, Facebook, or X, and it unlocks bookmarks, comments, and reactions: like, dislike, important, or inaccurate.</li>
+              <li>Related stories prefer the same cluster, then the nearest headline vector in the same section.</li>
+              <li>Recommendations use the last 30 days of clicks, bookmarks, comments, and reactions. Category and publisher weights choose the candidates. Headline distance reorders them toward stories close to ones the reader actually engaged with. Clicks that came from the recommendation rail are not treated as a preference.</li>
+              <li>A reader with no positive history gets an empty rail, so the client can hide it. Writes are rate-limited. Responses for a signed-in reader are cached for a short window.</li>
+            </ul>
+          </div>
 
-            <!-- Footer -->
-            <footer id="footer">
-                <p class="copyright">&copy; Jahid. All rights reserved</p>
-            </footer>
+          <div class="story-block">
+            <h3>Operations console</h3>
+            <p>A Thymeleaf admin app for the pipeline, not for readers. I add a publisher, the pattern that identifies a news URL, and the scrape rules for headline, body, and the rest. I can test a crawl and a scrape against the core service before turning a portal on.</p>
+            <ul>
+              <li>The dashboard shows stuck jobs, links still waiting to be scraped, articles waiting on a category, missing summaries, crawls that need attention, and configuration that looks unhealthy.</li>
+              <li>It also lists articles, the latest comments, and basic analytics, so I can see what readers are doing without opening the database.</li>
+            </ul>
+          </div>
 
+          <div class="story-block">
+            <h3>How it runs</h3>
+            <p>PostgreSQL 16 with pgvector is the system of record. Flyway owns the schema. Each service is a Docker image built in CI. OpenTelemetry exports traces. Gatling runs smoke, browse, and mixed-traffic simulations against the reader API.</p>
+            <p class="stack">Java · Spring Boot · PostgreSQL · pgvector · RabbitMQ · ONNX · Groq · Gemini · OpenTelemetry · Gatling · Docker</p>
+          </div>
+        </article>
+
+        <div class="cards">
+          <article class="card">
+            <p class="when">Jan 2026 — Present</p>
+            <h3>PalmPay integrations</h3>
+            <p>Backend integration services for a high-volume financial platform. I connect third-party financial systems and payment gateways, then stay on the hook for monitoring and incidents.</p>
+            <ul>
+              <li>Secure REST APIs between PalmPay and external financial systems.</li>
+              <li>Releases and post-incident review across development, pre-production, and live.</li>
+            </ul>
+            <p class="stack">Java · Spring Boot · REST</p>
+          </article>
+
+          <article class="card">
+            <p class="when">Apr 2025 — Sep 2025</p>
+            <h3>UOB Personal Internet Banking</h3>
+            <p>Web banking for payments, deposits, transfers, and account management. I delivered change requests and defect fixes on the BoatSize team.</p>
+            <ul>
+              <li>Monthly average balance, so customers can see interest on savings.</li>
+              <li>Contact updates gated by two-factor authentication.</li>
+            </ul>
+            <p class="stack">Java · Spring Boot · JSP · Oracle · Maven</p>
+          </article>
+
+          <article class="card">
+            <p class="when">Apr 2025 — Sep 2025</p>
+            <h3>UOB TMRW</h3>
+            <p>UOB’s mobile bank for savings, deposits, transfers, investments, and planning. Backend change requests and new features, with the same security bar as internet banking.</p>
+            <p class="stack">Java · Spring Boot · Oracle · Microservices · OpenShift</p>
+          </article>
+
+          <article class="card">
+            <p class="when">Jun 2023 — Mar 2025</p>
+            <h3>Rakuten Beauty</h3>
+            <p>Search and booking for hair, nail, and massage salons across Japan, including reviews, favourites, Rakuten Points, and coupons. I worked on the API estate behind that product.</p>
+            <ul>
+              <li>More than 20 Spring Boot microservices.</li>
+              <li>Notification, batch, shared-library, and free-text search services beside the core booking logic.</li>
+            </ul>
+            <p class="stack">Java · Spring Boot · PostgreSQL · Elasticsearch · Redis · Kafka · Docker · Jenkins</p>
+          </article>
+
+          <article class="card">
+            <p class="when">Jun 2022 — May 2023</p>
+            <h3>Electronic Voting System</h3>
+            <p>Blockchain-backed voting for elections, selections, and surveys. I refactored legacy code, reduced duplication, and improved the result calculation sheet.</p>
+            <p class="stack">Java · Spring Boot · JPA · PostgreSQL · Redis · JWT · AWS</p>
+          </article>
+
+          <article class="card">
+            <p class="when">Aug 2022 — Feb 2023</p>
+            <h3>Kona Time To Throwaway</h3>
+            <p>Recycling operations for Cheongju City, South Korea: collection, awareness, and rewards.</p>
+            <ul>
+              <li>Collection-scheduling API reduced scheduling time by 30%.</li>
+              <li>Reward management raised user engagement by 30%.</li>
+            </ul>
+            <p class="stack">Java · Spring Boot · PostgreSQL · Elasticsearch · Redis · AWS</p>
+          </article>
+
+          <article class="card">
+            <p class="when">Feb 2022 — May 2022</p>
+            <h3>Airline reservation search</h3>
+            <p>Flight search for an airline reservation system. Results change with who is asking: a retail user, an OTA, or a travel agent. I led the small team that built it.</p>
+            <p class="stack">Java · Spring Boot · Hibernate · SQL Server · JUnit</p>
+          </article>
         </div>
+      </section>
     </div>
+  </main>
 
-</div>
-
-<!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/browser.min.js"></script>
-<script src="assets/js/breakpoints.min.js"></script>
-<script src="assets/js/util.js"></script>
-<script src="assets/js/main.js"></script>
-
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© 2026 Md Jahid Hasan</p>
+      <p><a href="mailto:jahid.csedu@gmail.com">jahid.csedu@gmail.com</a></p>
+    </div>
+  </footer>
+  <script src="assets/js/site.js"></script>
 </body>
 </html>
